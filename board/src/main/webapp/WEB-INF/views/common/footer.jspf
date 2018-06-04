@@ -1,0 +1,15 @@
+	<footer class="footer">
+		<p>footer content</p>
+	</footer>
+
+	<script src="/resources/webjars/jquery/1.11.1/jquery.min.js"></script>
+	<script src="/resources/webjars/bootstrap/3.2.0/css/bootstrap.min.css"></script>
+	 <script>
+        
+        var p=window.location.pathname;
+        	$('.nav > li > a[href="'+p+'"]').parent().addClass('active');
+</script>
+
+</body>
+
+</html>
